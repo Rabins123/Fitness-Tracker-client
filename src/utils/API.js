@@ -1,7 +1,7 @@
 // get logged in user's info 
 
 
-BASE_URL = "https://server-fitness.onrender.com";
+const BASE_URL = "https://server-fitness.onrender.com";
 
 export const getMe = (token) => {
   return fetch(`${BASE_URL}/api/user/me`, {
